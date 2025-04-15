@@ -74,6 +74,12 @@ diff <(sha256sum evo2.sif) sha256sum.txt && echo "✅ Match!" || echo "❌ Misma
 
 ---
 
+## To Do
+
+- Add compatible version of flash attention, for faster inference
+
+---
+
 ## 📄 License
 
 This repo contains only the container checksum. For licensing and usage terms, refer to the [official Evo 2 repository](https://github.com/ArcInstitute/evo2).
