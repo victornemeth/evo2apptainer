@@ -73,9 +73,11 @@ diff <(sha256sum evo2.sif) sha256sum.txt && echo "✅ Match!" || echo "❌ Misma
 ```
 
 ---
+
 Note:
 
 You Can skip the warning about flash-attn, it uses flash attn build in vortex, but apptainer did not work if not also installed by pip.
+
 ---
 
 ## 📄 License
