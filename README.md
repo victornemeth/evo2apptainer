@@ -73,11 +73,9 @@ diff <(sha256sum evo2.sif) sha256sum.txt && echo "✅ Match!" || echo "❌ Misma
 ```
 
 ---
+Note:
 
-## To Do
-
-- Add compatible version of flash attention, for faster inference
-
+You Can skip the warning about flash-attn, it uses flash attn build in vortex, but apptainer did not work if not also installed by pip.
 ---
 
 ## 📄 License
